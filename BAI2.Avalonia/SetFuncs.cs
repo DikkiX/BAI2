@@ -7,23 +7,31 @@ namespace BAI
     {
         public static HashSet<uint> AlleKleuren(uint[] pixeldata)
         {
-            // *** IMPLEMENTATION HERE *** //
-            // Hier mag je loopen over pixeldata
-            return new HashSet<uint>();
+            // HashSet slaat alleen unieke waardes op (geen duplicaten)
+            return new HashSet<uint>(pixeldata);
         }
 
         public static HashSet<uint> BlauwTinten(uint[] pixeldata)
         {
-            // *** IMPLEMENTATION HERE *** //
-            // Hier mag je loopen over pixeldata
-            return new HashSet<uint>();
+            // Alle kleuren waar blauw hoger is dan rood EN groen
+            return new HashSet<uint>(
+                pixeldata.Where(pixel => 
+                    PixelFuncs.BlauwWaarde(pixel) > PixelFuncs.RoodWaarde(pixel) && 
+                    PixelFuncs.BlauwWaarde(pixel) > PixelFuncs.GroenWaarde(pixel)
+                )
+            );
         }
 
         public static HashSet<uint> DonkereKleuren(uint[] pixeldata)
         {
-            // *** IMPLEMENTATION HERE *** //
-            // Hier mag je loopen over pixeldata
-            return new HashSet<uint>();
+            // Alle kleuren waar RGB-som < 192
+            return new HashSet<uint>(
+                pixeldata.Where(pixel =>
+                    PixelFuncs.RoodWaarde(pixel) + 
+                    PixelFuncs.GroenWaarde(pixel) + 
+                    PixelFuncs.BlauwWaarde(pixel) < 192
+                )
+            );
         }
 
         public static HashSet<uint> NietBlauwTinten(uint[] pixeldata)

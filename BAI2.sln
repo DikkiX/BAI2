@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{C942B753-6CEF-445F-8ED6-AC9A71BB4035}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BAI2.Avalonia", "BAI2.Avalonia\BAI2.Avalonia.csproj", "{D50A13B8-98C2-4B1A-9B2E-37F9A10B8C89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC2C275A-2955-491F-9D33-5241F61D24EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC2C275A-2955-491F-9D33-5241F61D24EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC2C275A-2955-491F-9D33-5241F61D24EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC2C275A-2955-491F-9D33-5241F61D24EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C942B753-6CEF-445F-8ED6-AC9A71BB4035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C942B753-6CEF-445F-8ED6-AC9A71BB4035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C942B753-6CEF-445F-8ED6-AC9A71BB4035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C942B753-6CEF-445F-8ED6-AC9A71BB4035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50A13B8-98C2-4B1A-9B2E-37F9A10B8C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50A13B8-98C2-4B1A-9B2E-37F9A10B8C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50A13B8-98C2-4B1A-9B2E-37F9A10B8C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50A13B8-98C2-4B1A-9B2E-37F9A10B8C89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {39CB28A7-A0AB-4411-9F46-E449355BE9C6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "dgSpecHash": "0Avdag+rqbs=",
+  "success": true,
+  "projectFilePath": "/Users/obedado/Downloads/BAI2/BAI2.Avalonia/BAI2.Avalonia.csproj",
+  "expectedPackageFiles": [
+    "/Users/obedado/.nuget/packages/avalonia/11.3.6/avalonia.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.angle.windows.natives/2.1.25547.20250602/avalonia.angle.windows.natives.2.1.25547.20250602.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.buildservices/0.0.31/avalonia.buildservices.0.0.31.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.controls.colorpicker/11.3.6/avalonia.controls.colorpicker.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.desktop/11.3.6/avalonia.desktop.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.diagnostics/11.3.6/avalonia.diagnostics.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.fonts.inter/11.3.6/avalonia.fonts.inter.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.freedesktop/11.3.6/avalonia.freedesktop.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.native/11.3.6/avalonia.native.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.remote.protocol/11.3.6/avalonia.remote.protocol.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.skia/11.3.6/avalonia.skia.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.themes.fluent/11.3.6/avalonia.themes.fluent.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.themes.simple/11.3.6/avalonia.themes.simple.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.win32/11.3.6/avalonia.win32.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/avalonia.x11/11.3.6/avalonia.x11.11.3.6.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/harfbuzzsharp/8.3.1.1/harfbuzzsharp.8.3.1.1.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/harfbuzzsharp.nativeassets.linux/8.3.1.1/harfbuzzsharp.nativeassets.linux.8.3.1.1.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/harfbuzzsharp.nativeassets.macos/8.3.1.1/harfbuzzsharp.nativeassets.macos.8.3.1.1.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/harfbuzzsharp.nativeassets.webassembly/8.3.1.1/harfbuzzsharp.nativeassets.webassembly.8.3.1.1.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/harfbuzzsharp.nativeassets.win32/8.3.1.1/harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/sixlabors.imagesharp/3.1.4/sixlabors.imagesharp.3.1.4.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/skiasharp/2.88.9/skiasharp.2.88.9.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/skiasharp.nativeassets.linux/2.88.9/skiasharp.nativeassets.linux.2.88.9.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/skiasharp.nativeassets.macos/2.88.9/skiasharp.nativeassets.macos.2.88.9.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/skiasharp.nativeassets.webassembly/2.88.9/skiasharp.nativeassets.webassembly.2.88.9.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/skiasharp.nativeassets.win32/2.88.9/skiasharp.nativeassets.win32.2.88.9.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/tmds.dbus.protocol/0.21.2/tmds.dbus.protocol.0.21.2.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/microsoft.netcore.app.ref/8.0.12/microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.12/microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
+    "/Users/obedado/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.12/microsoft.netcore.app.host.osx-arm64.8.0.12.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-2cmq-823j-5qj8",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.1.4 has a known high severity vulnerability, https://github.com/advisories/GHSA-63p8-c4ww-9cg7",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-qxrv-gp6x-rc23",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'SixLabors.ImageSharp' 3.1.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-rxmq-m78w-7wmc",
+      "libraryId": "SixLabors.ImageSharp",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

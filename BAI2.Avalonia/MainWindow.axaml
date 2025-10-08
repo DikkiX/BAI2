@@ -1,0 +1,31 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="500" d:DesignHeight="430"
+        x:Class="BAI2.Avalonia.MainWindow"
+        Width="500" Height="430"
+        Title="BAI2 (macOS)">
+    <Grid>
+        <Border BorderThickness="1" BorderBrush="Black" HorizontalAlignment="Left" Height="342" Margin="10,10,0,0" VerticalAlignment="Top" Width="342">
+            <Image x:Name="imgBitmap" HorizontalAlignment="Left" Height="324" VerticalAlignment="Top" Width="324" Margin="9,9,0,0" PointerPressed="imgBitmap_PointerPressed"/>
+        </Border>
+
+        <Button x:Name="btnOrigineleKleuren" Content="Originele kleuren" HorizontalAlignment="Left" Margin="357,10,0,0" VerticalAlignment="Top" Width="120" Click="btnFilterKleur_Click"/>
+        <Button x:Name="btnFilterRood" Content="Filter rood" HorizontalAlignment="Left" Margin="357,35,0,0" VerticalAlignment="Top" Width="120" Click="btnFilterKleur_Click"/>
+        <Button x:Name="btnFilterGroen" Content="Filter groen" HorizontalAlignment="Left" Margin="357,60,0,0" VerticalAlignment="Top" Width="120" Click="btnFilterKleur_Click"/>
+        <Button x:Name="btnFilterBlauw" Content="Filter blauw" HorizontalAlignment="Left" Margin="357,85,0,0" VerticalAlignment="Top" Width="120" Click="btnFilterKleur_Click"/>
+
+        <TextBlock x:Name="lblCursorWaardes" Text="Positie: (-, -) - rood: -, groen: -, blauw: -" HorizontalAlignment="Left" Margin="10,357,0,0" VerticalAlignment="Top" Width="342"/>
+
+        <Button x:Name="btnAlleKleuren" Content="Alle unieke kleuren" HorizontalAlignment="Left" Margin="357,120,0,0" VerticalAlignment="Top" Width="120" Click="btnKleurenSet_Click"/>
+        <Button x:Name="btnBlauwtinten" Content="Blauwtinten" HorizontalAlignment="Left" Margin="357,145,0,0" VerticalAlignment="Top" Width="120" Click="btnKleurenSet_Click"/>
+        <Button x:Name="btnDonkereKleuren" Content="Donkere kleuren" HorizontalAlignment="Left" Margin="357,170,0,0" VerticalAlignment="Top" Width="120" Click="btnKleurenSet_Click"/>
+        <Button x:Name="btnNietBlauw" Content="Niet-blauwe tinten" HorizontalAlignment="Left" Margin="357,195,0,0" VerticalAlignment="Top" Width="120" Click="btnKleurenSet_Click"/>
+        <Button x:Name="btnDonkerblauw" Content="Donkerblauwtinten" HorizontalAlignment="Left" Margin="357,220,0,0" VerticalAlignment="Top" Width="120" Click="btnKleurenSet_Click"/>
+
+        <Button x:Name="btnStegaPlaatje" Content="Verborgen plaatje" HorizontalAlignment="Left" Margin="357,255,0,0" VerticalAlignment="Top" Width="120" Click="btnStegaPlaatje_Click"/>
+        <Button x:Name="btnStegaPlaatje2" Content="Onvindbaar plaatje" HorizontalAlignment="Left" Margin="357,280,0,0" VerticalAlignment="Top" Width="120" Classes="danger" Click="btnStegaPlaatje2_Click"/>
+    </Grid>
+    
+</Window>

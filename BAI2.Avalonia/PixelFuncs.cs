@@ -49,8 +49,12 @@ namespace BAI
 
         public static uint Steganografie(uint pixelvalue)
         {
-            // *** IMPLEMENTATION HERE *** //
-            return 0;
+            // Pak bit 16 (minst-sig bit van rood)
+            uint bit = (pixelvalue >> 16) & 0x01;
+    
+            // Als bit = 1: pixel = rood (0xFFFF0000)
+            // Als bit = 0: pixel = zwart (0xFF000000)
+            return bit == 1 ? 0xFFFF0000 : 0xFF000000;
         }
 
 

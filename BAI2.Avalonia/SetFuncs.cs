@@ -36,20 +36,20 @@ namespace BAI
 
         public static HashSet<uint> NietBlauwTinten(uint[] pixeldata)
         {
-            // *** IMPLEMENTATION HERE *** //
-            // Gebruik set-operatoren op 1 of meer van de sets 'alle kleuren' /
-            // 'blauwtinten' / 'donkere kleuren'
-            // Gebruik dus GEEN loop
-            return new HashSet<uint>();
+            // Alle kleuren behalve de blauwtinten
+            HashSet<uint> result = AlleKleuren(pixeldata);
+            //verwijder alles wat in de andere set zit
+            result.ExceptWith(BlauwTinten(pixeldata));
+            return result;
         }
 
         public static HashSet<uint> DonkerBlauwTinten(uint[] pixeldata)
         {
-            // *** IMPLEMENTATION HERE *** //
-            // Gebruik set-operatoren op 1 of meer van de sets 'alle kleuren' /
-            // 'blauwtinten' / 'donkere kleuren'
-            // Gebruik dus GEEN loop
-            return new HashSet<uint>();
+            // Kleuren die zowel blauw als donker zijn
+            HashSet<uint> result = BlauwTinten(pixeldata);
+            //(intersect) houd alleen wat in BEIDE sets zit
+            result = new HashSet<uint>(result.Intersect(DonkereKleuren(pixeldata)));
+            return result;
         }
     }
 }
